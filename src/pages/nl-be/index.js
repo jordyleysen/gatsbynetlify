@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import Video from '../layouts/Home/Video.js'
-import Home from '../layouts/Home/Home.js'
+import Video from '../../layouts/Home/Video.js'
+import Home from '../../layouts/Home/Home.js'
 
 import {connect} from "react-redux";
-import {fetchHome} from "../actions/homePageActions.js"
+import {fetchHome} from "../../actions/homePageActions.js"
 
 class HomeIndex extends Component {
   constructor(props) {
@@ -14,9 +14,7 @@ class HomeIndex extends Component {
 }
 
   componentWillMount(){
-    if(!this.props.homeFetched){
     this.props.dispatch(fetchHome())
-    }
   }
 
   changeLanguage(language){

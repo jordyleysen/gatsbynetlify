@@ -1,0 +1,177 @@
+#body #productHeaderImage {
+    height: 600px;
+    overflow: hidden;
+    width: 100%;
+    background-image: url('../img/martal-zagerij.jpg');
+    background-size: auto auto;
+    background-repeat: no-repeat;
+}
+
+#houtMenu {
+    text-align: center;
+    
+}
+
+#houtMenu li {
+    display: inline;
+}
+
+#houtMenu ul {
+    padding: 0;
+    margin: 0;
+    width: 294px;
+    margin: auto;
+    color: #E21D19;
+    font-family: "acumin-pro";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#houtMenu .itemContainer {
+    float: left;
+    min-width: 125px;
+    padding-bottom: 25px;
+    padding: 30px 0px 25px 0px;
+    margin: 0px 10px 0px 10px;
+}
+
+.itemActive {
+    border-bottom: 3px solid #E21D19;
+}
+
+#houtMenu li img {
+    height: 47px;
+}
+
+#producten{
+    padding-top: 80px;
+    margin: auto;
+    width: 95%;
+    border-top: 1px solid #D8D8D8;
+}
+
+#producten #test, #producten #test span{
+    width: 100%;
+    margin: auto;
+    max-width: 1311px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.clear {
+    clear: both;
+}
+
+.product {
+    margin: 1%;
+    flex-grow: 1;
+    flex-basis: 16%;
+    display: flex;
+    position: relative;
+    min-width: 393px;
+    min-height: 393px;
+    max-width: 393px;
+    max-height: 393px;
+    background-image: url('../img/ame-oak.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.product div {
+    position: absolute;
+    bottom: 0;
+    background-color: #E21D19 ;
+    color: #FFFFFF;
+    font-family: "acumin-pro";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    width: 275px;
+    padding: 23px 0px 20px 35px;
+}
+
+.anim-appear {
+    opacity: 0.01;
+  }
+   
+  .anim-appear.anim-appear-active{
+    opacity: 1;
+    transition: opacity 0.5s ease-in;
+  }
+
+  .anim-enter {
+    opacity: 0.01;
+  }
+   
+  .anim-enter.anim-enter-active{
+    opacity: 1;
+    transition: opacity 0.5s ease-in;
+  }
+
+  .anim-leave {
+    opacity: 1;
+  }
+   
+  .anim-leave.anim-leave-active{
+    opacity: 0.01;
+    transition: opacity 0.5s ease-in;
+  }
+
+  .product-enter {
+    opacity: 0.01;
+  }
+  
+  .product-enter.product-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+  }
+  
+  .product-leave {
+    opacity: 1;
+  }
+  
+  .product-leave.product-leave-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
+  }
+
+  @media screen and (min-width: 1440px){
+    
+       #producten #test{
+           max-width: 1311px;
+       }
+
+       .product:nth-child(3n){
+        margin-right: 0px;
+        }
+        
+        .product:nth-child(3n+1){
+            margin-left: 0px;
+        }
+    }
+
+  @media screen and (max-width: 1337px){
+    
+       #producten #test{
+           max-width: 819px;
+       }
+       
+    }
+
+    @media screen and (max-width: 900px) {
+        .product{
+            margin: 0 0 20px 0;
+            min-width: 393px;
+            min-height: 393px;
+            max-width: 393px;
+            max-height: 393px;
+        }
+
+        #producten #test{
+            max-width: 391px;
+        }
+    }

@@ -1,0 +1,78 @@
+footer .menuRight img {
+    width: 48px;
+}
+
+footer .footerMenuContainer {
+    width: 80%;
+    margin: auto;
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
+
+footer .footerMenuContainer div {
+    float: left;
+}
+
+footer .footerMenuContainer .logo {
+    margin: 0px;
+    padding: 0px;
+    height: 47px;
+    width: 156px; 
+}
+
+footer .footerMenuContainer .menuRight {
+    float: right;
+    margin-right: 10%;
+}
+
+footer .copyright {
+    margin: auto;
+    margin-top: 56px;
+    clear: both;
+    padding: 19px 0 19px 10%;
+    background-color: #F5F5F5;
+}
+
+footer .menu {
+    padding: 0;
+    margin: 0;
+    margin-left: 25%;
+    margin-top: 17px;
+}
+
+footer .menu li {
+    display: inline;
+    padding: 0;
+    margin: 0;
+    margin-right: 100px;
+}
+
+@media screen and (max-width: 1018px) {
+    footer .footerMenuContainer .menuRight {
+        float: unset;
+        margin-right: unset;
+    }
+
+    footer .menu {
+        margin-left: 0;
+        padding-bottom: 15px; 
+    }
+
+    footer .footerMenuContainer div {
+        float: unset;
+        margin-left: 0;
+    }
+
+    footer .menu li{
+        margin-right: 20px;
+    }
+    
+    footer .copyright{
+        margin-top: 0;
+    }
+
+    footer .menuRight img{
+        float: right;
+        margin-top: -92px;
+    }
+}

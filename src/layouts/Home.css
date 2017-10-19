@@ -1,0 +1,699 @@
+.menuIcon{
+    display: none;
+}
+
+#qualityAndProducts {
+    background-color: white;
+}
+
+#qualityAndProducts {
+    width: 50%;
+    max-height: 165px
+}
+
+.title {
+    color: #191919;
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 41px;
+    margin-bottom: 10px;
+    font-family: "acumin-pro";
+}
+
+.submenu {
+    float: left;
+    padding-top: 7.5%;
+    padding-bottom: 7.5%;
+    color: #191919;
+    font-weight: bold;
+}
+
+.submenu div {
+    padding-left: 27%;
+}
+
+.submenu span {
+    display: block
+}
+
+.subtitle {
+    color: #383838;
+    font-family: "acumin-pro";
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+#qualityContainer,
+#productsContainer {
+    width: 50%;
+}
+
+#productsContainer div{
+    padding-left: 23%;
+}
+
+#qualityContainer {
+    width: 49%;
+    border-right: 1px solid #e6e6e6;
+}
+#qualityAndProducts .arrow{
+    position: relative;
+    left: 50px;
+}
+.arrow {
+    height: 20px;
+}
+
+#topStory {
+    position: relative;
+    top: -104px;
+    overflow: hidden;   
+    z-index: 3;
+}
+
+#topStorySubContainer{
+    max-width: 712px;
+    background-color: #E21D19;
+    float: right;
+    padding-bottom: 100px;
+}
+
+.storyTitle {
+    color: #FFFFFF;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 42px;
+    position: relative;
+    /* left: -125px; */
+    width: fit-content;
+    margin: 88px 0px 10px 78px;
+}
+
+.storyText {
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 32px;
+    margin: 0px 0px 38px 78px;
+}
+
+.storyButton {
+    border: 2px solid #FFFFFF;
+    border-radius: 37px;
+    background-color: rgba(226, 29, 25, 0);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: center;
+    color: white;
+    padding: 16px 38px 16px 38px;
+    margin-left: 78px;
+}
+
+
+/*.picture{
+    width: 100%;
+    height: 100%;
+    max-height: 75vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}*/
+
+
+/*.imgContainer{
+    position: relative;
+    z-index: -1;
+    top: 100px;
+    width: 100%;
+    height: 800px;
+    background-image: url("./img/1.jpg");
+    background-size: 100%
+}*/
+
+.imgContainer {
+    width: 100%;
+    margin-top: -350px;
+    overflow: hidden;
+    max-height: 600px;
+}
+
+.image {
+    width: 100%;
+    overflow: hidden;
+}
+
+#quality {
+    position: absolute;
+    width: 45%;
+    top: 145%;
+    left: 10%;
+    background-color: white;
+    padding: 14px;
+}
+
+#talkToExpert {
+    float: right;
+    margin-top: 100px;
+    margin-right: 20%;
+}
+
+#quality .storyText {
+    font-size: 1.6em;
+}
+
+#stories {
+    clear: both;
+}
+
+.story {
+    display:table;
+
+}
+
+.imageStoryContainer {
+    width: 50%;
+    max-height: 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+.imageStory {
+    overflow: hidden;
+    width: 50%;
+}
+
+#QualityWork {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    position: relative;
+    margin-top: -80px;
+}
+
+.qualityLogoContainer {
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.qualityLogo {
+    height: 58px;
+}
+
+#QualityWork .subText {
+    color: #323232;
+    font-family: "acumin-pro";
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 34px;
+}
+
+.links {
+    display: inline-block;
+    color: #E21D19;
+    font-family: "acumin-pro";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    width: 312px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+
+.links div.left {
+    float: left;
+}
+
+.links div.right {
+    float: right;
+}
+
+.links img {
+    margin-left: 10px;
+}
+
+#stories .story {
+    width: 90%;
+    margin: auto;
+    background-color: #F5F5F5;
+    overflow: hidden;
+}
+
+.story .imageContainer {
+    width: 100%;
+    vertical-align: middle;
+    display: table-cell;
+    position: relative;
+    float: left;
+    width: 190%;
+
+}
+
+.story .storyTextContainer {
+    width: 50%;
+    vertical-align: middle;
+    display: table-cell;
+    background-color: #f0f1f3;
+    margin-top: 1px;
+}
+
+.story .imageContainer img {
+    width: 100%;
+    float: left;
+}
+
+.story .imageContainer .imageDescription {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    z-index: 1000;
+    width: 22%;
+    background-color: #E21D19;
+    padding: 46px 50px 46px 50px;
+    color: #FFFFFF;
+    font-size: 27px;
+    font-style: italic;
+    font-weight: 200;
+    line-height: 36px;
+}
+
+.story2 .imageContainer #videocontainer .video-react video{
+    margin-left: -190px;
+}
+
+.story1 .imageContainer #videocontainer .video-react video{
+    margin-left: -280px;
+}
+
+.storyTextContainer {
+    width: 40%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: inline-block;
+}
+
+.storyTextContainer .storyText {
+    color: #1E1E1E;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 44px;
+    margin: 0;
+}
+
+.storyTextContainer .storyTitle {
+    color: #A0A0A0;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 19px;
+    margin: 0;
+}
+
+.left {
+    float: left;
+}
+
+.story .imageContainer .imageDescriptionRight {
+    position: absolute;
+    right: 47%;
+    bottom: 0px;
+    z-index: 1000;
+    width: 23%;
+    background-color: #E21D19;
+    padding: 46px 50px 46px 50px;
+    color: #FFFFFF;
+    font-size: 27px;
+    font-style: italic;
+    font-weight: 200;
+    line-height: 36px;
+}
+
+#products {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    padding-top: 100px;
+    margin-top: -100px;
+    z-index: -1;
+    padding: 215px 5% 10px 5%;
+}
+
+.sectionTitle {
+    color: #FFFFFF;
+    font-family: "acumin-pro";
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 60px;
+    margin-bottom: 37px;
+    margin-left: 5%;
+}
+
+.sectionDescriptionContainer{
+    margin-left: 5%;
+}
+
+.sectionDescriptionContainer div {
+    display: inline-block;
+}
+
+.sectionDescription {
+    width: 37.85%;
+    color: #FFFFFF;
+    font-family: "acumin-pro";
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 34px;
+    vertical-align: top;
+    margin-left: 36px;
+}
+
+.horizontalLine {
+    height: 3px;
+    width: 100px;
+    background-color: #E21D19;
+    vertical-align: top;
+    margin-top: 15px;
+}
+
+.allProductsContainer {
+    float: right;
+    color: #FFFFFF;
+    font-family: "acumin-pro";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 65px;
+    margin-top: -13px;
+}
+
+.allProductsContainer img{
+    height: 12px;
+}
+
+.allProductsContainer div{
+    margin-left: 16px;
+    margin-right: 16px
+}
+
+.productimages {
+    margin-top: 88px;
+}
+
+.productimages {
+    width: 100%;
+}
+
+.productimages div.productContainer {
+    width: 48%;
+    display: inline-block;
+    color: #FFFFFF;
+    font-family: "acumin-pro";
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: center;
+    text-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.31);
+    position: relative;
+}
+
+#hardwoordContainer{
+    padding-right: 4%;
+}
+
+.productimages div.productContainer img {
+    width: 100%;
+    border-bottom: 5px solid #E21D19;
+    float: left;
+}
+
+.productContainer div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.btnViewAllProducts {
+    margin: auto;
+    padding: 16px 35px 16px 35px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: #FFFFFF;
+    font-family: "acumin-pro";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 37px;
+    max-width: 225px;
+}
+
+#about {
+    padding-top: 100px;
+}
+
+#about .overflow{
+    overflow: hidden;
+}
+
+#about .title {
+    color: #191919;
+    font-family: "acumin-pro";
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 60px;
+    margin-top: 24px;
+    margin-bottom: 20px;
+}
+
+#about .text {
+    color: #323232;
+    font-family: "acumin-pro";
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 35px;
+}
+
+.aboutContainer {
+    width: 90%;
+    margin: auto;
+    display: table;
+}
+
+.aboutContainer .storyLink {
+    color: #E21D19;
+    font-family: "acumin-pro";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+}
+
+.AboutTextContainer,
+.aboutContainer .imgContainer {
+    width: 50%;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.AboutTextContainer {
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.aboutContainer .imgContainer img {
+    width: 100%;
+}
+
+.storyLink .arrow {
+    height: 12px;
+    margin-left: 10px;
+}
+
+#about {
+    padding-bottom: 225px;
+    border-bottom: 5px solid red;
+}
+
+@media screen and (min-width: 1440px)  and (min-width:1181px){
+    #qualityAndProducts{
+        margin-left: 5.5%;
+    }
+
+    .submenu{
+        padding-top: 53px;
+        padding-bottom: 53px;
+    }
+
+    .submenu div{
+        padding-left: 50%;
+    }
+
+    #qualityContainer div{
+        position: relative;
+        left: -105px;
+    }
+
+    #productsContainer div{
+        padding-left: 50%;
+        position: relative;
+        left: -80px;
+    }
+}
+
+@media screen and (max-width: 1180px){
+
+    .submenu{
+        float: unset;
+    }
+
+    #qualityAndProducts{
+        max-height: unset;
+
+    }
+    #qualityContainer{
+        width: unset;
+        border-bottom: 1px solid #e6e6e6;
+    }
+
+    #productsContainer {
+        width: unset;
+    }
+
+    .submenu div, #productsContainer div{
+        padding-left: 20px;
+    }
+
+    #topStory{
+        top: -320px;
+    }
+}
+
+@media screen and (max-width: 1018px) {
+    .menuIcon{
+        display: inline-block
+    }
+    
+    #qualityAndProducts{
+        width: unset;
+    }
+
+    #qualityContainer, #productsContainer   {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #topStory{
+        top: unset;
+    }
+
+    #topStorySubContainer{
+        max-width: unset;
+        margin-bottom: 350px;
+    }
+
+    .storyTitle{
+        margin-top: 44px;
+    }
+
+    #topStorySubContainer{
+        padding-bottom: 60px;
+    }
+
+    #qualityAndProducts #qualityContainer .arrow{
+        left: 70px;
+    }
+
+    header{
+        width: 100%;
+    }
+
+    #body{
+        top: unset;
+        overflow-x: hidden;
+    }
+
+    #menuContainer{
+        display: none;
+    }
+
+    #stories .story{
+        display: table;
+    }
+
+    .story .storyTextContainer{
+        display: table-footer-group;
+    }
+
+    .story .imageContainer{
+        display: table-header-group;
+    }
+
+    .story .imageContainer .imageDescription{
+        top: unset;
+        left: unset;
+        right: 0;
+        bottom: 0;
+        text-align: left;
+    }
+
+    .storyTextContainer .storyTitle{
+        padding: 20px;
+    }
+
+    .storyTextContainer .storyText{
+        padding: 0 20px 30px 20px;
+    }
+
+    #qualityContainer, #productsContainer{
+        padding-left: 30px;
+    }
+}
+
+@media screen and (max-width: 605px) {
+    .storyTitle{
+        margin: auto;
+        width: auto;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 19px;
+        left: unset;
+    }
+
+    .storyText{
+        text-align: center;
+        margin: auto;
+        width: 90%;
+        font-size: 1em;
+    }
+
+    .storyButton{
+            /* text-align: center; */
+    margin: auto;
+    /* width: 1000px; */
+    display: block;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 20px;
+    }
+
+    .story .imageContainer .imageDescription{
+        padding: 10px;
+        width: unset;
+        line-height: unset;
+        font-size: 15px;
+        position: relative;
+    }
+
+    .story .imageContainer .imageDescriptionRight{
+        padding: 10px;
+        width: unset;
+        line-height: unset;
+        font-size: 15px;
+        position: relative;
+    }
+}
